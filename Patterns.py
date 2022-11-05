@@ -204,7 +204,7 @@ for i in range(n,0,-1):
     for j in range(i-1):
         print("*",end='')
     print() """
-
+#-----------------------------------
 #11
 #122
 #1233
@@ -229,6 +229,7 @@ for i in range(n,1,-1):
         print(j,end='')
     print(count,end="")
     print() """
+#-----------------------------------
 #*        *
 #**      **
 #* *    * *
@@ -269,6 +270,7 @@ for i in range(1,n+1):
             print(" ",end='')
     print()
  """
+ #-----------------------------------
 #    1
 #   23 2
 #  345 43
@@ -282,10 +284,3 @@ for i in range(1,n+1):
     for j in range(i+i-2,i-1,-1):
         print(j,end='')
     print() """
-n=66
-i=43
-for j in range(1,n+1,+1):
-    print(j)
-print()
-for j in range(n,i-1,-1):
-    print(j)
