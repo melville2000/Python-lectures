@@ -82,7 +82,7 @@ def numberTriangle2(n):
             print(j, end="")
         print()
 
-def numberTriangle2(n):
+def numberTriangle3(n):
     """ 1
         2 3
         4 5 6
@@ -95,7 +95,7 @@ def numberTriangle2(n):
             print(str(count) + " ", end="")
         print()
 
-def numberTriangle3(n):
+def numberTriangle4(n):
     count=0
     """ 1
         0 1
@@ -110,11 +110,6 @@ def numberTriangle3(n):
                 print("1 ", end="")
         print()
 
-
-
-
-
-
 def rhombus(n):
     """ 
         *****
@@ -128,6 +123,7 @@ def rhombus(n):
         for j in range(n):
             print("*", end="")
         print()
+        
 def pascalTriangle(n):
     """ 1
        2 2

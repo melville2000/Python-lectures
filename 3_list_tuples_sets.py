@@ -1,5 +1,36 @@
-# ------------LIST------------
+#-------LISTS DEFINATION-------
+# Lists are used to store multiple data in under 1 variable
 # [ ] are used to make a list
+# Lists are ordered, changable and allow duplicates
+# List items are indexed, the first item has an index of [0], the second has [1].
+# Lists have a defined order, and that order will not change.
+# Lists are changable, meaning we can add, remove items after the list is created
+# Lists allow duplicates
+
+#-------TUPLES DEFINATION-------
+# Tuples are used to store multiple items under one variable.
+# ( ) are used to make a tuple.
+# Tuples are ordered, unchangable and allow duplicates.
+# Tuples are indexed, the first item has an index [0], second has [1]
+# Tuples have a defined order that will not change
+# Tuples are unchangeable, we cannot add, remove items from it.
+# Tuples allow duplicates
+
+#-------SETS DEFINATION-------
+# Sets are use d to store multiple items under a single variable
+# { } are used to make a set.
+# Sets are unordered, unchangable, unindexed and dont allow duplicates
+# Sets do not have a defined order, they can appear in diffrent order every time you use them.
+# Set items cannot be changed once the set is created 
+# Sets do not allow duplicates
+
+#-------DICTIONARIES DEFINATION-------
+# Dictionaries are used to store key:value pairs.
+# {key : value} are used to make a dictionary.
+# Dictionary items are ordered, changeable, and does not allow duplicates.
+
+
+# ------------LIST------------
 courses = ["English", "History", "Maths", "Comp Sci"]
 # list indexes start with 0
 
